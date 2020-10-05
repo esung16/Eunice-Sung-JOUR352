@@ -1,4 +1,59 @@
-#headline {
-  font-size: 18px;
-  color: blue;
+/* STYLES FOR MY RESUME */
+
+/* majority of text */
+body {
+  font-family: Open Sans, Arial, san-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* name */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #33485e;
+}
+
+/* photo */
+
+/* title */
+strong {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #33485e;
+}
+
+/* section titles */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+/* job titles */
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/* job location */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* job timeline */
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em:
+}
+
+/* listed text */
+li{
+  font-size: 1em;
 }
