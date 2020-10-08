@@ -80,6 +80,7 @@ body {
   margin-right: 0;
 }
 
+/* job responsibilities */
 .description {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -120,6 +121,7 @@ li {
   font-size: 1em;
 }
 
+/* who i am */
 .top {
   width: 60%;
   min-width: 300px;
