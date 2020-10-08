@@ -92,6 +92,9 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+.menu li {
   display: inline;
   list-style-type: none;
 }
