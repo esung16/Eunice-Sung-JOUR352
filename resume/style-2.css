@@ -93,11 +93,11 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  list-style-type: none;
 }
 
 .menu li {
   display: inline;
-  list-style-type: none;
 }
 
 /* education */
