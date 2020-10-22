@@ -1,10 +1,61 @@
+#icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+}
+
 #masthead {
-  font-size: 100px;
-  font-family: 'Alegreya SC', serif;
+  font-size: 65px;
+  font-family: 'Trocchi', serif;
+  font-weight: bold;
   color: #616160;
-  background-color: #FDFD96;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0 auto;
+}
+
+#headline {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
   margin-bottom: 20px;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#caption {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #616160;
+}
+
+#captionheader {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#source {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #616160;
+}
+
+#body {
+  font-family: Georgia, serif;
+  font-size: 13px;
 }
 
 #content {
