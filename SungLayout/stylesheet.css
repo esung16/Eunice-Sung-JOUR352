@@ -25,7 +25,6 @@
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
-  margin-bottom: 20px;
 }
 
 #image {
@@ -51,6 +50,18 @@
   font-family: Georgia, serif;
   font-size: 13px;
   color: #616160;
+}
+
+blockquote {
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+margin-top: 15px;
+margin-bottom: 15px;
+color: blue;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
 }
 
 #body {
