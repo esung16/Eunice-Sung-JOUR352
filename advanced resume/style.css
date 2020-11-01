@@ -1,4 +1,9 @@
-h2 {
+h1 {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+h5 {
+  padding: 30px;
   font-family: 'Tenor Sans', sans-serif;
 }
 
@@ -42,4 +47,22 @@ li {
 .fab {
   color: #849EFF;
   padding: 50px;
+  border: 0;
+}
+
+.workplace {
+  float: left;
+  margin-right:5px
+}
+
+.jobtitle {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #5F6681;
 }
