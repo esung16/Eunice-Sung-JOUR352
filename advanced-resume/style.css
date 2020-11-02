@@ -1,17 +1,21 @@
+/*sections*/
 h1 {
   font-family: 'Tenor Sans', sans-serif;
 }
 
+/*experience description*/
 h5 {
   padding: 30px;
   font-family: 'Tenor Sans', sans-serif;
 }
 
+/*entire documenter wrapper*/
 #container {
   text-align: center;
   padding: 20px;
 }
 
+/*menu bar*/
 .topnav {
   overflow: hidden;
   background-color: white;
@@ -21,12 +25,6 @@ h5 {
   font-family: 'Tenor Sans', sans-serif;
   color: black;
   z-index: 1;
-}
-
-li {
-  font-family: Helvetica, sans-serif;
-  font-size: 17px;
-  list-style-type: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -47,31 +45,53 @@ li {
   font-family: 'Tenor Sans', sans-serif;
 }
 
+/*skills*/
+li {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+/*divider*/
 hr.solid {
   border-top: 20px solid #bbb;
   padding: 20px;
   width: 100%;
 }
 
+/*social icons*/
 .fab {
   color: #849EFF;
   padding: 50px;
   border: 0;
 }
 
+/*job location*/
 .workplace {
   float: left;
   margin-right:5px
 }
 
+/*job position*/
 .jobtitle {
     font-size: 30px;
     font-weight: bolder;
 }
 
+/*location and date*/
 .caption {
   font-family: Helvetica, sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: #5F6681;
+}
+
+/*job description*/
+.description {
+  padding:30px;
+}
+
+/*footer*/
+footer {
+  font-family: Helvetica, sans-serif;
 }
