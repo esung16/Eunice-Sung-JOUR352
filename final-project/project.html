@@ -19,33 +19,31 @@
   <!-- Navbar -->
 <body>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-   <a class="navbar-brand" href="#">The 352 Times</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <ul class="navbar-nav mr-auto">
-       <li class="nav-item active">
-         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-       </li>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Sections
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#">Chapter 1</a>
-           <a class="dropdown-item" href="#">Another action</a>
-           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Something else here</a>
-         </div>
-       </li>
-     </ul>
-   </div>
-  </nav>
+    <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarNav">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button class="dropdown-item" type="button">Action</button>
+            <button class="dropdown-item" type="button">Another action</button>
+            <button class="dropdown-item" type="button">Something else here</button>
+          </div>
+      </div>
+    </div>
+    <div class="d-flex w-100 order-0">
+        <div class="w-100">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <a class="navbar-brand text-center w-100" href="#">Navbar</a>
+        <span class="w-100"></span>
+    </div>
+    <span class="w-100"></span>
+</nav>
     <!--End Navbar -->
 
     <!--Story-->
+<div id=content>
   <p>Shortly before midnight on March 28, 2017, a silver Dodge Caravan streaked past Highway Patrol Trooper Dustin A. Motsinger as he sat parked along a stretch of highway in rural North Carolina. Motsinger raced after the speeding van. The driver stopped, but as the trooper climbed out of his cruiser, the van drove off. Motsinger gave chase.</p>
 
   <p>Inside the van that night, 15-year-old Osiel Carbajal was at the wheel. His passengers: his 16-year-old sister, her 15-year-old boyfriend and a 15-year-old friend. The teens had taken the van without permission from Carbajal’s mother in nearby Morven.</p>
@@ -60,7 +58,16 @@
 
   <p>The trooper’s maneuver was no accident — it was a PIT, or precision immobilization technique, a tactical driving maneuver for which he’d been trained.</p>
 
-  <p>In a successful PIT, the pursuing officer uses the cruiser to push the fleeing vehicle’s rear end sideways, sending it into a spin and ending the pursuit. But the tactic can have deadly consequences.</p>
+  <div class="row">
+
+          <div class="col-md-8">
+            <p>In a successful PIT, the pursuing officer uses the cruiser to push the fleeing vehicle’s rear end sideways, sending it into a spin and ending the pursuit. But the tactic can have deadly consequences.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/pit-maneuver.jpg" alt="graphic of how the PIT maneuver works">
+            <figcaption>Captain 538 at the English language Media</figcaption>
+          </div>
+  </div>
 
   <p>So far this year, nine people have been killed nationwide in PIT maneuvers, including a 16-year-old who was driving a stolen car in Longmont, Colo., and a driver and passenger who were being chased by police for speeding in Creek County, Okla. Just this month, a 29-year-old suspected drunk driver who fled a traffic stop in Coweta County, Ga., died after a PIT maneuver.</p>
 
@@ -121,7 +128,7 @@
   <p>“Over a certain speed, there is nothing precise about a PIT maneuver,” Blum said. “It amounts to a ramming that turns two heavy vehicles into deadly projectiles.”</p>
 
 <!--section header-->
-<p>Bystanders pay a price</p>
+<h2>Bystanders pay a price</h2>
 
   <p>Last year, the Jacksonville Sheriff’s Office in Florida engaged in more than 200 police pursuits, ending 61 of them with PITs, according to an annual report from the office.</p>
 
@@ -179,7 +186,7 @@
   <p>South Fulton Police Chief Keith Meadows also did not respond to requests for comment.</p>
 
 <!--section header-->
-<p>‘We don’t want to take the chance’</p>
+<h2>‘We don’t want to take the chance’</h2>
 
   <p>The risks of using the PIT have divided departments. Of the 142 law enforcement agencies that responded to The Post, 74 said they do not use the maneuver. One would not say.</p>
 
@@ -236,7 +243,7 @@
   <p>“I’m not aware of any other major incident dealing with PIT maneuvers,” Gallegos said. “We also have additional driver training for officers involved in crashes, and we recently got a new driving simulator to help with training.”</p>
 
 <!--section header-->
-<p>‘I saw at least one other occupant’</p>
+<h2>‘I saw at least one other occupant’</h2>
 
   <p>In the weeks before Motsinger, the North Carolina Highway Patrol trooper, used a PIT to stop the minivan full of teens, he had ended two other pursuits with the tactic. In one, he sent a driver into a ditch at 65 mph and caused $3,300 in damage to his patrol car. He was driving a loaner vehicle the night he rammed the van, records show.</p>
 
@@ -300,7 +307,6 @@
 
   <p>Julie Tate, Steven Rich, Ana Chacin and Justine Coleman contributed to this report, which was published in partnership with the Investigative Reporting Workshop, where Chacin and Coleman were fellows.</p>
 
-
     <!-- INFOGRAPHICS -->
       <!-- Map -->
       <iframe title="PIT policies by state" aria-label="Map" id="datawrapper-chart-E0rud" src="https://datawrapper.dwcdn.net/E0rud/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="492"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
@@ -314,6 +320,7 @@
       <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html? source=1tNiMT2yqgtX8KP36pSUW55h4NwZnfY86ZR9r_cldwL4&font=Georgia-Helvetica&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
       </iframe>
     <!--End infographics-->
+</div>
 
     <!-- Rest of content -->
   <div class="container">

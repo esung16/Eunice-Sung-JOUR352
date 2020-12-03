@@ -1,0 +1,22 @@
+.navbar-brand {
+  font-family: 'Cantata One', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.dropdown-menu {
+  text-align: left;
+}
+
+.col-md-8 {
+  padding-top: 200px;
+}
+
+/*content wrap */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
