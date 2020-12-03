@@ -1,3 +1,4 @@
+/*navbar*/
 .navbar-brand {
   font-family: 'Cantata One', serif;
   font-size: 30px;
@@ -7,16 +8,39 @@
   width: 100%;
 }
 
-.dropdown-menu {
-  text-align: left;
+/*headline*/
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 20px;
 }
 
+/*section headers*/
+h2 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.caption {
+  font-size: 10px;
+}
+
+/*text next to graphic*/
 .col-md-8 {
   padding-top: 200px;
 }
 
 /*content wrap */
-#content {
+.content {
   margin: 0 auto;
   width: 900px;
+  font-family: Helvetica, sans-serif;
 }
