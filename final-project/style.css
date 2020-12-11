@@ -10,37 +10,88 @@
 
 /*headline*/
 h1 {
-  font-family: Georgia, serif;
+  font-family: 'Cantata One', serif;
+  font-weight: bold;
   text-align: center;
   padding: 20px;
+}
+
+/*byline*/
+.byline {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+/*date*/
+.date {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: red;
 }
 
 /*section headers*/
 h2 {
-  font-family: Helvetica, sans-serif;
-  text-align: center;
+  font-family: Georgia, serif;
   font-weight: bold;
 }
 
+/*video*/
+.video {
+  text-align: center;
+}
+
+/*images*/
 #photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
 }
 
+/*captions*/
 .caption {
-  font-size: 10px;
+  font-size: 13px;
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 /*text next to graphic*/
 .col-md-8 {
   padding-top: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+}
+
+/*pull quotes*/
+blockquote {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  color: #000080;
+}
+.blockquote-footer {
+  font-style: italic;
+  background-color: white;
+}
+blockquote p:first-letter {
+	font-size: 39px;
+	font-weight: bolder;
+}
+
+/*footer*/
+footer {
+  background-color: #333333;
+  color: white;
 }
 
 /*content wrap */
 .content {
   margin: 0 auto;
-  width: 900px;
-  font-family: Helvetica, sans-serif;
+  width: 700px;
+  font-family: Georgia, serif;
+  font-size: 18px;
 }
